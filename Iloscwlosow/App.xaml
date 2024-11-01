@@ -4,6 +4,43 @@
              xmlns:local="clr-namespace:Iloscwlosow"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="TextBlock" x:Key="tytul">
+            <Setter Property="Text" Value="Program do szacowania liczby włosów na głowie"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontStyle" Value="Italic"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="liczbawlosow">
+         <Setter Property="Text" Value="Wpisz liczbę włosów na cm2"></Setter>
+            <Setter Property="Margin" Value="22,100,559,0"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+        <Style TargetType="TextBox" x:Key="wlosyliczba">
+            <Setter Property="Margin" Value="22,120,578,0"></Setter>
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="obwodglowy">
+            <Setter Property="Text" Value="Wpisz obwód głowy(cm)"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="Margin" Value="310,100,349,0"></Setter>
+        </Style>
+        <Style TargetType="TextBox" x:Key="glowyobwod">
+            <Setter Property="Margin" Value="310,120,290,0"></Setter>
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="wysczola">
+            <Setter Property="Text" Value="Wpisz wysokość czoła(cm)"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="Margin" Value="578,100,74,0"></Setter>
+        </Style>
+        <Style TargetType="TextBox" x:Key="czolowys">
+            <Setter Property="Margin" Value="578,120,22,0"></Setter>
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+        </Style>
     </Application.Resources>
 </Application>
