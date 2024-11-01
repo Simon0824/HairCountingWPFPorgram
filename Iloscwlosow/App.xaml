@@ -82,7 +82,7 @@
             <Setter Property="Text" Value="Twoja przybliżona liczba włosów: "></Setter>
             <Setter Property="TextWrapping" Value="Wrap"></Setter>
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
-            <Setter Property="Margin" Value="0,194,0,194"></Setter>
+            <Setter Property="Margin" Value="0,194,0,0"></Setter>
         </Style>
     </Application.Resources>
 </Application>
