@@ -9,13 +9,13 @@
     <Grid>
         <TextBlock Style="{StaticResource tytul}"></TextBlock>
         <TextBlock Style="{StaticResource liczbawlosow}"></TextBlock>
-        <TextBox Style="{StaticResource wlosyliczba}"></TextBox>
-        <TextBlock Style="{StaticResource obwodglowy}"></TextBlock>
-        <TextBox Style="{StaticResource glowyobwod}"></TextBox>
+        <TextBox Style="{StaticResource wlosyliczba}" x:Name="Gestosc"></TextBox>
+        <TextBlock Style="{StaticResource obwodglowy}"/>
+        <TextBox Style="{StaticResource glowyobwod}" x:Name="obwod"></TextBox>
         <TextBlock Style="{StaticResource wysczola}"></TextBlock>
-        <TextBox Style="{StaticResource czolowys}"></TextBox>
+        <TextBox Style="{StaticResource czolowys}" x:Name="wysokosc"></TextBox>
         <Button Style="{StaticResource oblicz}" Click="Obliczaniewlosow"></Button>
         <Button Style="{StaticResource reset}" Click="Reset"></Button>
-        <TextBlock Style="{StaticResource wynik}"></TextBlock>
+        <TextBlock Style="{StaticResource wynik}" x:Name="Wynik"></TextBlock>
     </Grid>
 </Window>

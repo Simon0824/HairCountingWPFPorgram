@@ -11,60 +11,76 @@
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
             <Setter Property="VerticalAlignment" Value="Top"></Setter>
             <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
         </Style>
         <Style TargetType="TextBlock" x:Key="liczbawlosow">
-         <Setter Property="Text" Value="Wpisz liczbę włosów na cm2"></Setter>
-            <Setter Property="Margin" Value="22,100,559,0"></Setter>
+            <Setter Property="Text" Value="Wpisz liczbę włosów na cm2"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="Margin" Value="22,100,0,-100"></Setter>
         </Style>
         <Style TargetType="TextBox" x:Key="wlosyliczba">
-            <Setter Property="Margin" Value="22,120,578,0"></Setter>
             <Setter Property="Width" Value="200"></Setter>
             <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="Margin" Value="22,120,0,0"></Setter>
         </Style>
         <Style TargetType="TextBlock" x:Key="obwodglowy">
             <Setter Property="Text" Value="Wpisz obwód głowy(cm)"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
-            <Setter Property="Margin" Value="310,100,349,0"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="Margin" Value="-60,100,0,-100"></Setter>
         </Style>
         <Style TargetType="TextBox" x:Key="glowyobwod">
-            <Setter Property="Margin" Value="310,120,290,0"></Setter>
             <Setter Property="Width" Value="200"></Setter>
             <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="Margin" Value="0,120,0,0"></Setter>
         </Style>
         <Style TargetType="TextBlock" x:Key="wysczola">
             <Setter Property="Text" Value="Wpisz wysokość czoła(cm)"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
-            <Setter Property="Margin" Value="578,100,74,0"></Setter>
+            <Setter Property="Margin" Value="578,100,22,316"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="Margin" Value="0,100,73,-80"></Setter>
         </Style>
         <Style TargetType="TextBox" x:Key="czolowys">
-            <Setter Property="Margin" Value="578,120,22,0"></Setter>
+            <Setter Property="Margin" Value="0,120,22,0"></Setter>
             <Setter Property="Width" Value="200"></Setter>
             <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
         </Style>
         <Style TargetType="Button" x:Key="oblicz">
             <Setter Property="Width" Value="200"></Setter>
             <Setter Property="VerticalAlignment" Value="Top"></Setter>
             <Setter Property="Content" Value="Oblicz liczbę włosów"></Setter>
-            <Setter Property="Margin" Value="512,286,50,0"></Setter>
+            <Setter Property="Margin" Value="0,270,60,0"></Setter>
             <Setter Property="Background" Value="Green"></Setter>
             <Setter Property="BorderBrush" Value="Black"></Setter>
             <Setter Property="BorderThickness" Value="2px"></Setter>
             <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Right"></Setter>
         </Style>
         <Style TargetType="Button" x:Key="reset">
             <Setter Property="Width" Value="200"></Setter>
             <Setter Property="VerticalAlignment" Value="Top"></Setter>
             <Setter Property="Content" Value="Reset obliczeń"></Setter>
-            <Setter Property="Margin" Value="38,286,524,0"></Setter>
             <Setter Property="Background" Value="Red"></Setter>
             <Setter Property="BorderBrush" Value="Black"></Setter>
             <Setter Property="BorderThickness" Value="2px"></Setter>
             <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="Margin" Value="60,270,0,0"></Setter>
         </Style>
         <Style TargetType="TextBlock" x:Key="wynik">
             <Setter Property="Text" Value="Twoja przybliżona liczba włosów: "></Setter>
-            <Setter Property="Margin" Value="310,194,315,0"></Setter>
+            <Setter Property="Margin" Value="310,194,292,0"></Setter>
             <Setter Property="TextWrapping" Value="Wrap"></Setter>
         </Style>
     </Application.Resources>
