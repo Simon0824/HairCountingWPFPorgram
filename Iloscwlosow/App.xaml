@@ -66,6 +66,7 @@
             <Setter Property="BorderThickness" Value="2px"></Setter>
             <Setter Property="Height" Value="40"></Setter>
             <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
         </Style>
         <Style TargetType="Button" x:Key="reset">
             <Setter Property="Width" Value="200"></Setter>
@@ -77,6 +78,7 @@
             <Setter Property="Height" Value="40"></Setter>
             <Setter Property="HorizontalAlignment" Value="Left"></Setter>
             <Setter Property="Margin" Value="60,270,0,0"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
         </Style>
         <Style TargetType="TextBlock" x:Key="wynik">
             <Setter Property="Text" Value="Twoja przybliżona liczba włosów: "></Setter>
