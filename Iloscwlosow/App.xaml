@@ -42,5 +42,30 @@
             <Setter Property="Width" Value="200"></Setter>
             <Setter Property="VerticalAlignment" Value="Top"></Setter>
         </Style>
+        <Style TargetType="Button" x:Key="oblicz">
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Content" Value="Oblicz liczbę włosów"></Setter>
+            <Setter Property="Margin" Value="512,286,50,0"></Setter>
+            <Setter Property="Background" Value="Green"></Setter>
+            <Setter Property="BorderBrush" Value="Black"></Setter>
+            <Setter Property="BorderThickness" Value="2px"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+        </Style>
+        <Style TargetType="Button" x:Key="reset">
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="Content" Value="Reset obliczeń"></Setter>
+            <Setter Property="Margin" Value="38,286,524,0"></Setter>
+            <Setter Property="Background" Value="Red"></Setter>
+            <Setter Property="BorderBrush" Value="Black"></Setter>
+            <Setter Property="BorderThickness" Value="2px"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="wynik">
+            <Setter Property="Text" Value="Twoja przybliżona liczba włosów: "></Setter>
+            <Setter Property="Margin" Value="310,194,315,0"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+        </Style>
     </Application.Resources>
 </Application>

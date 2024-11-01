@@ -14,5 +14,8 @@
         <TextBox Style="{StaticResource glowyobwod}"></TextBox>
         <TextBlock Style="{StaticResource wysczola}"></TextBlock>
         <TextBox Style="{StaticResource czolowys}"></TextBox>
+        <Button Style="{StaticResource oblicz}" Click="Obliczaniewlosow"></Button>
+        <Button Style="{StaticResource reset}" Click="Reset"></Button>
+        <TextBlock Style="{StaticResource wynik}"></TextBlock>
     </Grid>
 </Window>
