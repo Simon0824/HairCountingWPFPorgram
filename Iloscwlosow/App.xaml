@@ -80,8 +80,9 @@
         </Style>
         <Style TargetType="TextBlock" x:Key="wynik">
             <Setter Property="Text" Value="Twoja przybliżona liczba włosów: "></Setter>
-            <Setter Property="Margin" Value="310,194,292,0"></Setter>
             <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="Margin" Value="0,194,0,194"></Setter>
         </Style>
     </Application.Resources>
 </Application>
